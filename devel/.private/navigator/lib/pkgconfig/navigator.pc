@@ -1,0 +1,8 @@
+prefix=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/navigator
+
+Name: navigator
+Description: Description of navigator
+Version: 0.0.0
+Cflags: -I/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/navigator/include -I/usr/include/eigen3 -I/usr/local/include
+Libs: -L${prefix}/lib /usr/local/lib/libGeographic.so
+Requires: roscpp rospy std_msgs message_runtime

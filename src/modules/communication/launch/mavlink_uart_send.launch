@@ -1,0 +1,16 @@
+<launch>
+  <node pkg="communication" type="mavlink_uart" name="mavlink_uart_node" output="screen" args="0">
+ 
+	<!-- Read Mavlink_mission parameters -->
+	<rosparam command="load" file="$(find communication)/launch/Mission_config_s.yaml" />
+
+  </node>
+</launch>
+
+<!--
+  node 标签:
+  pkg:  是节点所在的 package 名称 
+  type: 是 package 中的可执行文件，如果是 python 或者 Julia 编写的，就可能是 .py 或者 .jl 文件，
+        如果是 c++ 编写的，就是源文件编译之后的可执行文件的名字。
+  name: 是节点启动之后的名字, 每一个节点都要有自己独一无二的名字。
+-->

@@ -1,0 +1,8 @@
+prefix=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs
+
+Name: fw_msgs
+Description: Description of fw_msgs
+Version: 0.0.0
+Cflags: -I/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

@@ -1,0 +1,5 @@
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/libmavconn/cmake/libmavconnConfig-version.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/libmavconn.so
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/pkgconfig/libmavconn.pc

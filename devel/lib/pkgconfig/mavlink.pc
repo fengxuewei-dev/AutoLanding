@@ -1,0 +1,8 @@
+prefix=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel
+exec_prefix=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel
+includedir=${prefix}/include
+
+Name: mavlink
+Description: MAVLink micro air vehicle marshalling / communication library
+Version: 2020.3.3
+Cflags: -I${includedir}

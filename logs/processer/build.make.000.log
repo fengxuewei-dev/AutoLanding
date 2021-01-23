@@ -1,0 +1,37 @@
+[35m[1mScanning dependencies of target processer[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/processer.dir/src/processer.cpp.o[0m
+[35m[1mScanning dependencies of target _processer_generate_messages_check_deps_uavflag[0m
+[ 11%] Built target _processer_generate_messages_check_deps_uavflag
+[ 22%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/processer/lib/processer/processer[0m
+[ 22%] Built target processer
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 22%] Built target std_msgs_generate_messages_nodejs
+[ 22%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 22%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 22%] Built target std_msgs_generate_messages_eus
+[ 22%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target processer_generate_messages_cpp[0m
+[ 33%] [34m[1mGenerating C++ code from processer/uavflag.msg[0m
+[35m[1mScanning dependencies of target processer_generate_messages_nodejs[0m
+[ 44%] [34m[1mGenerating Javascript code from processer/uavflag.msg[0m
+[ 44%] Built target processer_generate_messages_nodejs
+[ 44%] Built target processer_generate_messages_cpp
+[35m[1mScanning dependencies of target processer_generate_messages_lisp[0m
+[ 55%] [34m[1mGenerating Lisp code from processer/uavflag.msg[0m
+[ 55%] Built target processer_generate_messages_lisp
+[35m[1mScanning dependencies of target processer_generate_messages_eus[0m
+[35m[1mScanning dependencies of target processer_generate_messages_py[0m
+[ 66%] [34m[1mGenerating EusLisp code from processer/uavflag.msg[0m
+[ 77%] [34m[1mGenerating Python from MSG processer/uavflag[0m
+[ 88%] [34m[1mGenerating EusLisp manifest code for processer[0m
+[100%] [34m[1mGenerating Python msg __init__.py for processer[0m
+WARNING: Package name "msgsSub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[100%] Built target processer_generate_messages_py
+WARNING: Package name "msgsSub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[100%] Built target processer_generate_messages_eus
+[35m[1mScanning dependencies of target processer_generate_messages[0m
+[100%] Built target processer_generate_messages

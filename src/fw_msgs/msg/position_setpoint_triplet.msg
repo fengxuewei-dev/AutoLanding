@@ -1,0 +1,10 @@
+# position_setpoint_triplet.msg
+
+float64 count_number
+float64 selforgheading
+mavros_msgs/Waypoint currentWaypoint
+mavros_msgs/Waypoint nextWaypoint
+mavros_msgs/Waypoint enu_currentWaypoint
+mavros_msgs/Waypoint enu_nextWaypoint
+int8 Throttle
+int8 ExistNext

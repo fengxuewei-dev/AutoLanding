@@ -1,0 +1,3 @@
+# Formations.msg
+
+string formationShape 

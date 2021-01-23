@@ -1,0 +1,1 @@
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/navigator/share/common-lisp/ros/navigator/msg/position_setpoint_triplet.lisp

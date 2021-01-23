@@ -1,0 +1,6 @@
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/libmavros_extras.so
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/mavros_extras/visualization
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/mavros_extras/servo_state_publisher
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/pkgconfig/mavros_extras.pc

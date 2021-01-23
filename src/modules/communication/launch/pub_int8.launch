@@ -1,0 +1,4 @@
+<launch>
+    <node name="pub_int8" pkg = "communication" type = "UDP_Receive" output="screen">
+    </node>
+</launch>

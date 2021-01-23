@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libRC.so -o /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libRC.so CMakeFiles/RC.dir/include/RC/RC.cpp.o  -L/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_att_control/../../bin 

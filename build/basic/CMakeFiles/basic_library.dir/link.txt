@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libbasic_library.so -o /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libbasic_library.so CMakeFiles/basic_library.dir/include/ShowInfoFMU.cpp.o  -L/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/basic/../include 

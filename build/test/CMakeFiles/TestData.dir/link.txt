@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libTestData.so -o /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/test/lib/libTestData.so CMakeFiles/TestData.dir/include/TestData.cpp.o  -L/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/test/../bin 

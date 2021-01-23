@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/GPS2Distance/GPS2Distance.cpp
+GPS2Distance.hpp
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/GPS2Distance/GPS2Distance.hpp
+
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/GPS2Distance/GPS2Distance.hpp
+math.h
+-
+iostream
+-
+
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/mathlib/fw_mathlib/fixed_wing_mathlib.cpp
+fixed_wing_mathlib.hpp
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/mathlib/fw_mathlib/fixed_wing_mathlib.hpp
+
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/mathlib/fw_mathlib/fixed_wing_mathlib.hpp
+math.h
+-
+
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/mathlib/math/mathlib.cpp
+mathlib.hpp
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/mathlib/math/mathlib.hpp
+
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/mathlib/math/mathlib.hpp
+math.h
+-
+iostream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libfw_sub_pub.so -o /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libfw_sub_pub.so CMakeFiles/fw_sub_pub.dir/include/fw_sub_pub.cpp.o  -L/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/basic/../include 

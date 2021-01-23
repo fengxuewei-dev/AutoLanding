@@ -1,0 +1,19 @@
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/NavigatorSubAndPub.hpp:38:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/NavigatorSubAndPub.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/../navigator_output.hpp:7:28:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define NAVIGATOR_ERROR(a) \
+                             
+WARNING: Package name "msgsSub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "msgsSub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/NavigatorSubAndPub.hpp:38:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/navigator.hpp:6[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/navigator.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/../navigator_output.hpp:7:28:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define NAVIGATOR_ERROR(a) \
+                             
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/../include/NavigatorSubAndPub/NavigatorSubAndPub.hpp:38:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/../navigator.hpp:6[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/GSP2ENU.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/../include/NavigatorSubAndPub/../navigator_output.hpp:7:28:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define NAVIGATOR_ERROR(a) \
+                             

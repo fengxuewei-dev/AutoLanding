@@ -1,0 +1,5 @@
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/fw_pos_control/cmake/fw_pos_controlConfig-version.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/fw_pos_control/cmake/fw_pos_controlConfig.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/libFixedwingPositionSubandPub.so
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/fw_pos_control/FixedwingPositionControl
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/pkgconfig/fw_pos_control.pc

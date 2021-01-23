@@ -1,0 +1,14 @@
+<launch>
+    <!-- 启动单机功能节点 -->
+    <!-- 1. px4.launch -->
+	<arg name="tgt_system" default="1" />
+	<arg name="fcu_url" default="udp://:14540@127.0.0.1:14557" />
+    
+    <include file="$(find mavros)/launch/px4.launch">
+		<arg name="tgt_system" value="$(arg tgt_system)" />
+		<arg name="fcu_url" value="$(arg fcu_url)" />
+    </include>
+
+    <!-- 2. 功能节点 -->
+    <!-- <node pkg="navigator" type="navigator" name="navigator" launch-prefix="xterm -e" output="screen" /> -->
+</launch>

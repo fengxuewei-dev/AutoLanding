@@ -1,0 +1,8 @@
+prefix=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/install
+
+Name: msgsSub
+Description: Description of msgsSub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="communication" type="mavlink_uart_truedata" name="mavlink_uart_node" output="screen" args="0">
+ 
+	<!-- Read Mavlink_mission parameters -->
+	<rosparam command="load" file="$(find communication)/launch/Mission_config_s.yaml" />
+
+  </node>
+</launch>

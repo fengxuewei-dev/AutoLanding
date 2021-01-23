@@ -1,0 +1,1 @@
+/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/navigator/include/navigator/position_setpoint_triplet.h

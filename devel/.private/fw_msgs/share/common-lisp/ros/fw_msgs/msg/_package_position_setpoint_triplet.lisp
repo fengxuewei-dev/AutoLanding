@@ -1,0 +1,18 @@
+(cl:in-package fw_msgs-msg)
+(cl:export '(COUNT_NUMBER-VAL
+          COUNT_NUMBER
+          SELFORGHEADING-VAL
+          SELFORGHEADING
+          CURRENTWAYPOINT-VAL
+          CURRENTWAYPOINT
+          NEXTWAYPOINT-VAL
+          NEXTWAYPOINT
+          ENU_CURRENTWAYPOINT-VAL
+          ENU_CURRENTWAYPOINT
+          ENU_NEXTWAYPOINT-VAL
+          ENU_NEXTWAYPOINT
+          THROTTLE-VAL
+          THROTTLE
+          EXISTNEXT-VAL
+          EXISTNEXT
+))

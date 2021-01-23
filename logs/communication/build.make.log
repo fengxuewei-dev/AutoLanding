@@ -1,0 +1,264 @@
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_nodejs[0m
+[  0%] Built target geographic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_cpp[0m
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_py[0m
+[  0%] Built target mavros_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_lisp[0m
+[  0%] Built target geographic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_FormationNavigator[0m
+[  0%] Built target _communication_generate_messages_check_deps_FormationNavigator
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_UpdHP[0m
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_FormationPositionContoller[0m
+[  0%] Built target _communication_generate_messages_check_deps_FormationPositionContoller
+[  0%] Built target _communication_generate_messages_check_deps_UpdHP
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_FormationData[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target _communication_generate_messages_check_deps_FormationData
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_udpDataTypes[0m
+[  0%] Built target _communication_generate_messages_check_deps_udpDataTypes
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_UDPData[0m
+[  0%] Built target _communication_generate_messages_check_deps_UDPData
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_ACK[0m
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_QgcCommands[0m
+[  0%] Built target _communication_generate_messages_check_deps_ACK
+[35m[1mScanning dependencies of target _communication_generate_messages_check_deps_Yaw[0m
+[  0%] Built target _communication_generate_messages_check_deps_QgcCommands
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target _communication_generate_messages_check_deps_Yaw
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_eus
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target mavros_msgs_generate_messages_nodejs
+[  0%] Built target uuid_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target fw_att_control_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target fw_att_control_generate_messages_py[0m
+[  0%] Built target uuid_msgs_generate_messages_py
+[  0%] Built target fw_att_control_generate_messages_nodejs
+[  0%] Built target fw_att_control_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target communication_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target fw_att_control_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target fw_att_control_generate_messages_eus
+[  1%] [34m[1mGenerating Javascript code from communication/ACK.msg[0m
+[  2%] [34m[1mGenerating Javascript code from communication/UDPData.msg[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  2%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_py[0m
+[  3%] [34m[1mGenerating Javascript code from communication/FormationPositionContoller.msg[0m
+[35m[1mScanning dependencies of target fw_att_control_generate_messages_lisp[0m
+[  3%] Built target geographic_msgs_generate_messages_py
+[  3%] Built target fw_att_control_generate_messages_lisp
+[  4%] [34m[1mGenerating Javascript code from communication/QgcCommands.msg[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  4%] Built target roscpp_generate_messages_cpp
+[  6%] [34m[1mGenerating Javascript code from communication/UpdHP.msg[0m
+[  7%] [34m[1mGenerating Javascript code from communication/udpDataTypes.msg[0m
+[  8%] [34m[1mGenerating Javascript code from communication/Yaw.msg[0m
+[  9%] [34m[1mGenerating Javascript code from communication/FormationData.msg[0m
+[ 10%] [34m[1mGenerating Javascript code from communication/FormationNavigator.msg[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 10%] Built target sensor_msgs_generate_messages_nodejs
+[ 10%] Built target communication_generate_messages_nodejs
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 10%] Built target roscpp_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_nodejs
+[ 10%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_cpp[0m
+[ 10%] Built target geometry_msgs_generate_messages_eus
+[ 10%] Built target uuid_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target DataForFormationSubandPub[0m
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[ 10%] Built target uuid_msgs_generate_messages_nodejs
+[ 10%] Built target mavros_msgs_generate_messages_lisp
+[ 12%] [32mBuilding CXX object CMakeFiles/DataForFormationSubandPub.dir/include/sendDataForFormation/DataForFormationSubAndPub.cpp.o[0m
+[ 12%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 12%] Built target sensor_msgs_generate_messages_eus
+[ 12%] Built target sensor_msgs_generate_messages_py
+[ 12%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target fw_att_control_generate_messages_cpp[0m
+[ 12%] Built target geographic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 12%] Built target fw_att_control_generate_messages_cpp
+[ 12%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target myudp_receive_forrc[0m
+[35m[1mScanning dependencies of target communication_generate_messages_lisp[0m
+[ 12%] Built target uuid_msgs_generate_messages_eus
+[ 13%] [32mBuilding CXX object CMakeFiles/myudp_receive_forrc.dir/include/udp/myudp_receive_for_rc.cpp.o[0m
+[ 14%] [34m[1mGenerating Lisp code from communication/UDPData.msg[0m
+[ 15%] [34m[1mGenerating Lisp code from communication/ACK.msg[0m
+[35m[1mScanning dependencies of target SendLib[0m
+[ 16%] [34m[1mGenerating Lisp code from communication/FormationPositionContoller.msg[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/SendLib.dir/include/communication/SendLib.cpp.o[0m
+[ 19%] [34m[1mGenerating Lisp code from communication/QgcCommands.msg[0m
+[ 20%] [34m[1mGenerating Lisp code from communication/UpdHP.msg[0m
+[ 21%] [34m[1mGenerating Lisp code from communication/udpDataTypes.msg[0m
+[ 22%] [34m[1mGenerating Lisp code from communication/Yaw.msg[0m
+[ 24%] [34m[1mGenerating Lisp code from communication/FormationData.msg[0m
+[ 25%] [34m[1mGenerating Lisp code from communication/FormationNavigator.msg[0m
+[ 25%] Built target communication_generate_messages_lisp
+[35m[1mScanning dependencies of target ReceiveLib[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/ReceiveLib.dir/include/communication/ReceiveLib.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libmyudp_receive_forrc.so[0m
+[ 27%] Built target myudp_receive_forrc
+[ 28%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libSendLib.so[0m
+[35m[1mScanning dependencies of target udp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/udp.dir/include/udp/udpReceive.cpp.o[0m
+[ 30%] Built target SendLib
+[35m[1mScanning dependencies of target communication_generate_messages_py[0m
+[ 31%] [34m[1mGenerating Python from MSG communication/ACK[0m
+[ 32%] [34m[1mGenerating Python from MSG communication/UDPData[0m
+[ 33%] [34m[1mGenerating Python from MSG communication/FormationPositionContoller[0m
+[ 34%] [34m[1mGenerating Python from MSG communication/QgcCommands[0m
+[ 36%] [34m[1mGenerating Python from MSG communication/UpdHP[0m
+[ 37%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/libDataForFormationSubandPub.so[0m
+[ 38%] [34m[1mGenerating Python from MSG communication/udpDataTypes[0m
+[ 39%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libReceiveLib.so[0m
+[ 40%] [34m[1mGenerating Python from MSG communication/Yaw[0m
+[ 40%] Built target DataForFormationSubandPub
+[35m[1mScanning dependencies of target communication_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target communication_generate_messages_eus[0m
+[ 40%] Built target ReceiveLib
+[ 42%] [34m[1mGenerating C++ code from communication/ACK.msg[0m
+[ 43%] [34m[1mGenerating EusLisp code from communication/ACK.msg[0m
+[ 44%] [34m[1mGenerating Python from MSG communication/FormationData[0m
+[ 45%] [34m[1mGenerating EusLisp code from communication/UDPData.msg[0m
+[ 46%] [34m[1mGenerating Python from MSG communication/FormationNavigator[0m
+[ 48%] [34m[1mGenerating EusLisp code from communication/FormationPositionContoller.msg[0m
+[ 49%] [34m[1mGenerating C++ code from communication/UDPData.msg[0m
+[ 50%] [34m[1mGenerating C++ code from communication/FormationPositionContoller.msg[0m
+[ 51%] [34m[1mGenerating Python msg __init__.py for communication[0m
+[ 53%] [34m[1mGenerating EusLisp code from communication/QgcCommands.msg[0m
+[ 54%] [34m[1mGenerating C++ code from communication/QgcCommands.msg[0m
+[ 55%] [34m[1mGenerating EusLisp code from communication/UpdHP.msg[0m
+[ 56%] [34m[1mGenerating C++ code from communication/UpdHP.msg[0m
+[ 56%] Built target communication_generate_messages_py
+[ 57%] [34m[1mGenerating C++ code from communication/udpDataTypes.msg[0m
+[ 59%] [34m[1mGenerating EusLisp code from communication/udpDataTypes.msg[0m
+[ 60%] [34m[1mGenerating C++ code from communication/Yaw.msg[0m
+[ 61%] [34m[1mGenerating C++ code from communication/FormationData.msg[0m
+[ 62%] [34m[1mGenerating EusLisp code from communication/Yaw.msg[0m
+[ 63%] [34m[1mGenerating EusLisp code from communication/FormationData.msg[0m
+[ 65%] [34m[1mGenerating C++ code from communication/FormationNavigator.msg[0m
+[ 66%] [34m[1mGenerating EusLisp code from communication/FormationNavigator.msg[0m
+[ 67%] [34m[1mGenerating EusLisp manifest code for communication[0m
+WARNING: Package name "msgsSub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 67%] Built target communication_generate_messages_cpp
+[ 68%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libudp.so[0m
+WARNING: Package name "msgsSub" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[ 68%] Built target udp
+[ 68%] Built target communication_generate_messages_eus
+[35m[1mScanning dependencies of target test_udp_receive[0m
+[35m[1mScanning dependencies of target UDP_Send_QGCommand[0m
+[35m[1mScanning dependencies of target UDP_Receive[0m
+[35m[1mScanning dependencies of target UDP_Send_fromtxt_localip[0m
+[35m[1mScanning dependencies of target setqgcommands[0m
+[35m[1mScanning dependencies of target sendDataForFormation[0m
+[35m[1mScanning dependencies of target mavlink_uart_truedata[0m
+[35m[1mScanning dependencies of target sendFormationShape[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/sendDataForFormation.dir/sendDataForFormation/sendDataForFormation.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/test_udp_receive.dir/test/udp_receive.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/UDP_Send_fromtxt_localip.dir/src/UDP_Send/UDP_Send_fromtxt_localip.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/UDP_Receive.dir/src/UDP_Receive/UDP_Receive.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/UDP_Send_QGCommand.dir/src/UDP_Send/UDP_Send_QGCommand.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/setqgcommands.dir/src/DDT_P900/setqgcommands.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mavlink_uart_truedata.dir/src/DDT_P900/mavlink_uart_truedata.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/sendFormationShape.dir/test/sendFormationShap.cpp.o[0m
+[35m[1mScanning dependencies of target test_udp_send[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/test_udp_send.dir/test/udp_send.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/test_udp_receive[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/communication/sendDataForFormation/../include/sendDataForFormation/DataForFormationSubAndPub.hpp:3[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/communication/sendDataForFormation/sendDataForFormation.hpp:3[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/communication/sendDataForFormation/sendDataForFormation.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/communication/sendDataForFormation/sendDataForFormation.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 9 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/communication/sendDataForFormation/sendDataForFormation.cpp:57:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO("Waiting for the Init param from QGCommands ... %f, %f", dataForFormationSubAndPub.myGap.x, dataForFormationSubAndPub.leaderid);
+         [01;36m[K^[m[K
+[ 81%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/sendFormationShape[0m
+[ 81%] Built target test_udp_receive
+[35m[1mScanning dependencies of target UDP_Send_fromtxt[0m
+[ 83%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/setqgcommands[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/UDP_Send_fromtxt.dir/src/UDP_Send/UDP_Send_fromtxt.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/sendDataForFormation[0m
+[ 85%] Built target sendFormationShape
+[35m[1mScanning dependencies of target communication_generate_messages[0m
+[35m[1mScanning dependencies of target UDP_Send[0m
+[ 85%] Built target communication_generate_messages
+[ 86%] [32mBuilding CXX object CMakeFiles/UDP_Send.dir/src/UDP_Send/UDP_Send.cpp.o[0m
+[35m[1mScanning dependencies of target mavlink_uart[0m
+[ 86%] Built target setqgcommands
+[35m[1mScanning dependencies of target UDP_Send_justhome[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/mavlink_uart.dir/src/DDT_P900/mavlink_uart.cpp.o[0m
+[ 87%] Built target sendDataForFormation
+[ 89%] [32mBuilding CXX object CMakeFiles/UDP_Send_justhome.dir/src/UDP_Send/UDP_Send_justhome.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/UDP_Receive[0m
+[ 90%] Built target UDP_Receive
+[ 91%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/test_udp_send[0m
+[ 91%] Built target test_udp_send
+[ 92%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/UDP_Send_QGCommand[0m
+[ 93%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/UDP_Send_fromtxt_localip[0m
+[ 93%] Built target UDP_Send_fromtxt_localip
+[ 93%] Built target UDP_Send_QGCommand
+[ 95%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/mavlink_uart_truedata[0m
+[ 95%] Built target mavlink_uart_truedata
+[ 96%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/UDP_Send_fromtxt[0m
+[ 97%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/mavlink_uart[0m
+[ 98%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/UDP_Send_justhome[0m
+[ 98%] Built target UDP_Send_fromtxt
+[ 98%] Built target mavlink_uart
+[100%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/communication/lib/communication/UDP_Send[0m
+[100%] Built target UDP_Send_justhome
+[100%] Built target UDP_Send

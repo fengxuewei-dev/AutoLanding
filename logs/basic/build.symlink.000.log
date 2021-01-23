@@ -1,0 +1,10 @@
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/basic/cmake/basicConfig-version.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/basic/cmake/basicConfig.cmake
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/GetWaypointList
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/mode_setting
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/GetHomePosition
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/takeoff_mission
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/OneClickLanding
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/SendNewWaypoints
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/basic/DisplayInfoFMU
+Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/pkgconfig/basic.pc
