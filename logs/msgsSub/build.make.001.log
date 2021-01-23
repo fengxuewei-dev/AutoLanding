@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target msgSubandPub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/msgSubandPub.dir/include/SubAndPub.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libmsgSubandPub.so[0m
+[ 50%] Built target msgSubandPub
+[35m[1mScanning dependencies of target msgSubAndPub[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/msgSubAndPub.dir/msgSubAndPub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/msgsSub/lib/msgsSub/msgSubAndPub[0m
+[100%] Built target msgSubAndPub

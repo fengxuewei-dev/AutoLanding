@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/libmavconn:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/libmavconn/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/libmavconn/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/build/libmavconn'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/libmavconn/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavros/libmavconn:$ROS_PACKAGE_PATH"

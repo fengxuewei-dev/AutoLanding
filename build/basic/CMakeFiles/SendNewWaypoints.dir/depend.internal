@@ -3,8 +3,6 @@
 
 CMakeFiles/SendNewWaypoints.dir/src/AboutWaypoint/SendNewWaypoints.cpp.o
  /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/CommandBool.h
- /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/CommandBoolRequest.h
- /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/CommandBoolResponse.h
  /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h
  /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/SetMode.h
  /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/SetModeRequest.h

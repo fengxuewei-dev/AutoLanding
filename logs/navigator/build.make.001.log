@@ -1,0 +1,61 @@
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _navigator_generate_messages_check_deps_position_setpoint_triplet
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target NavigatorSubandPub[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  5%] [32mBuilding CXX object CMakeFiles/NavigatorSubandPub.dir/include/General/GeneralMission.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/NavigatorSubandPub.dir/include/Loiter/LoiterMission.cpp.o[0m
+[ 11%] Built target mavros_msgs_generate_messages_py
+[ 11%] Built target geometry_msgs_generate_messages_py
+[ 11%] Built target std_msgs_generate_messages_eus
+[ 11%] Built target mavros_msgs_generate_messages_eus
+[ 17%] [32mBuilding CXX object CMakeFiles/NavigatorSubandPub.dir/include/NavigatorSubAndPub/NavigatorSubAndPub.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/NavigatorSubandPub.dir/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/lib/GPS2Distance/GPS2Distance.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/NavigatorSubandPub.dir/include/PathManger/algorithms.cpp.o[0m
+[ 29%] Built target geometry_msgs_generate_messages_eus
+[ 29%] Built target geometry_msgs_generate_messages_nodejs
+[ 29%] Built target std_msgs_generate_messages_nodejs
+[ 29%] Built target mavros_msgs_generate_messages_nodejs
+[ 29%] Built target mavros_msgs_generate_messages_lisp
+[ 29%] Built target geometry_msgs_generate_messages_lisp
+[ 29%] Built target std_msgs_generate_messages_lisp
+[ 35%] [34m[1mGenerating C++ code from navigator/position_setpoint_triplet.msg[0m
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/NavigatorSubAndPub.hpp:38:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/NavigatorSubAndPub.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/../navigator_output.hpp:7:28:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define NAVIGATOR_ERROR(a) \
+                             
+[ 35%] Built target navigator_generate_messages_cpp
+[ 41%] [34m[1mGenerating Python from MSG navigator/position_setpoint_triplet[0m
+[ 47%] [34m[1mGenerating Python msg __init__.py for navigator[0m
+[ 47%] Built target navigator_generate_messages_py
+[ 52%] [34m[1mGenerating EusLisp code from navigator/position_setpoint_triplet.msg[0m
+[ 58%] Built target navigator_generate_messages_eus
+[ 64%] [34m[1mGenerating Javascript code from navigator/position_setpoint_triplet.msg[0m
+[ 70%] [34m[1mGenerating Lisp code from navigator/position_setpoint_triplet.msg[0m
+[ 70%] Built target navigator_generate_messages_nodejs
+[ 70%] Built target navigator_generate_messages_lisp
+[ 70%] Built target navigator_generate_messages
+[ 76%] [32m[1mLinking CXX shared library /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/bin/libNavigatorSubandPub.so[0m
+[ 76%] Built target NavigatorSubandPub
+[35m[1mScanning dependencies of target navigator[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/navigator.dir/navigator.cpp.o[0m
+[35m[1mScanning dependencies of target GPS2ENU[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/GPS2ENU.dir/test/GSP2ENU.cpp.o[0m
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/NavigatorSubAndPub.hpp:38:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/navigator.hpp:6[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/navigator.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/include/NavigatorSubAndPub/../navigator_output.hpp:7:28:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define NAVIGATOR_ERROR(a) \
+                             
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/../include/NavigatorSubAndPub/NavigatorSubAndPub.hpp:38:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/../navigator.hpp:6[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/GSP2ENU.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/navigator/test/../include/NavigatorSubAndPub/../navigator_output.hpp:7:28:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define NAVIGATOR_ERROR(a) \
+                             
+[ 94%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/navigator/lib/navigator/navigator[0m
+[100%] [32m[1mLinking CXX executable /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/navigator/lib/navigator/GPS2ENU[0m
+[100%] Built target navigator
+[100%] Built target GPS2ENU

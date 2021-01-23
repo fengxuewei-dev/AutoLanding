@@ -271,20 +271,6 @@ mavros_msgs/Waypoint.h
 -
 
 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/WaypointPushResponse.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
 
 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros_msgs/include/mavros_msgs/WaypointReached.h
 string

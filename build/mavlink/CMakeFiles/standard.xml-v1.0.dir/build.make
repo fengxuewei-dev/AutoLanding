@@ -60,7 +60,7 @@ include/v1.0/standard/standard.h: /home/fengxuewei/GitHub/uav_project_1/AutoLand
 include/v1.0/standard/standard.h: /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/message_definitions/v1.0/common.xml
 include/v1.0/standard/standard.h: /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/pymavlink/tools/mavgen.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/v1.0/standard/standard.h"
-	/usr/bin/env PYTHONPATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/message_definitions/v1.0/standard.xml
+	/usr/bin/env PYTHONPATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink:/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/pymavlink/tools/mavgen.py --lang=C --wire-protocol=1.0 --output=include/v1.0 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/message_definitions/v1.0/standard.xml
 
 standard.xml-v1.0: CMakeFiles/standard.xml-v1.0
 standard.xml-v1.0: include/v1.0/standard/standard.h

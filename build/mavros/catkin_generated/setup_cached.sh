@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/build/mavros'
 export PYTHONPATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/mavros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"

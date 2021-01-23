@@ -1,0 +1,25 @@
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target mavros_msgs_generate_messages_cpp
+[  0%] Built target _navigator_generate_messages_check_deps_position_setpoint_triplet
+[ 35%] Built target NavigatorSubandPub
+[ 35%] Built target mavros_msgs_generate_messages_py
+[ 35%] Built target std_msgs_generate_messages_py
+[ 35%] Built target geometry_msgs_generate_messages_py
+[ 35%] Built target std_msgs_generate_messages_eus
+[ 35%] Built target mavros_msgs_generate_messages_eus
+[ 35%] Built target geometry_msgs_generate_messages_eus
+[ 35%] Built target geometry_msgs_generate_messages_nodejs
+[ 35%] Built target std_msgs_generate_messages_nodejs
+[ 35%] Built target mavros_msgs_generate_messages_nodejs
+[ 35%] Built target mavros_msgs_generate_messages_lisp
+[ 35%] Built target geometry_msgs_generate_messages_lisp
+[ 35%] Built target std_msgs_generate_messages_lisp
+[ 41%] Built target navigator_generate_messages_cpp
+[ 52%] Built target navigator_generate_messages_py
+[ 58%] Built target navigator_generate_messages_nodejs
+[ 70%] Built target navigator_generate_messages_eus
+[ 76%] Built target navigator_generate_messages_lisp
+[ 76%] Built target navigator_generate_messages
+[ 88%] Built target navigator
+[100%] Built target GPS2ENU

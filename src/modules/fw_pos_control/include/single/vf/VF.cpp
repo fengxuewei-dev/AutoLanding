@@ -228,14 +228,15 @@ void VF::getErrorXYZ(
     std::cout << "在当前航线上的投影点： "; p_project.print_vec();
 
     // 2. 计算距离向量
+    // 差别的距离 大于0 ， 表明是在期望位置点的下面
     Three_Dimensional_Vector error = p_project - P;
     std::cout << "当前位置的距离误差向量： "; error.print_vec();
 
     // 3. 得到 两个平面的距离误差(水平方向是垂直误差，垂直方向是距离误差)
     horizontalDistance = sqrt(pow(error.getX(),2) + pow(error.getY(), 2));
-    verticalDistance = abs(error.getZ());
-    std::cout << "水平距离误差: " << horizontalDistance << std::endl;
-    std::cout << "垂直距离误差: " << verticalDistance << std::endl;
+    verticalDistance = error.getZ();
+    std::cout << "水平距离误差(绝对值): \t" << horizontalDistance << std::endl;
+    std::cout << "垂直距离误差(带有正负号): \t" << verticalDistance << std::endl;
 }
 // 计算三维中的水平平面和垂直平面 位于的哪一侧
 void VF::getMAV_side(
@@ -397,7 +398,7 @@ double VF::getPitch(
         End.getZ() - Start.getZ(), 
         sqrt(pow(End.getX() - Start.getX(),2) + pow(End.getY() - Start.getY(),2))
     ); 
-    std::cout<< "迎角: theta_f:\n" << theta_f <<std::endl;      // 期望角度
+    std::cout<< "迎角: theta_f: " << theta_f <<std::endl;      // 期望角度
 
     
     // 当前位置在期望航线上的投影点距离起始点的长度
@@ -446,7 +447,7 @@ double VF::getPitch(
         
         theta_c = theta_d - (k_pitch * height_theta_infinite * S_groundSpeed / (alpha_pitch * pow(height_distanceThreshold, k_pitch))) * pow(epsilon, (k_pitch - 1)) * sin(theta_MAV);
     }
-    std::cout<<"theta_d:\n"<<theta_d<<std::endl;
+    std::cout<<"theta_d: "<<theta_d<<std::endl;
     std::cout<<"theta_c: "<<theta_c<<std::endl;
     return -1.0f * theta_c;
 

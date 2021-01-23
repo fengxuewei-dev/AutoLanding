@@ -191,7 +191,9 @@ void PositionControl_VF::straight_(){
         horizontalSide,
         verticalSide
     ); // 计算水平平面上和垂直平面上无人机的位置
-   
+    
+    verticalSide = verticalDistance > 0 ? -1 : 1;
+
 	Yaw = vectorField.getHeading(   // 水平上的
 		currentPosition,
 		wayPointStart,
@@ -213,7 +215,7 @@ void PositionControl_VF::straight_(){
 		current_vfr_hud.groundspeed,
         theta,
         psi
-        , verticalDistance
+        , abs(verticalDistance)
         , verticalSide
     );
 

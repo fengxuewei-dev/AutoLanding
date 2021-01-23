@@ -60,7 +60,7 @@ matrixpilot-v2.0-cxx-stamp: /home/fengxuewei/GitHub/uav_project_1/AutoLanding/Au
 matrixpilot-v2.0-cxx-stamp: /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/message_definitions/v1.0/common.xml
 matrixpilot-v2.0-cxx-stamp: /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/pymavlink/tools/mavgen.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating matrixpilot-v2.0-cxx-stamp"
-	/usr/bin/env PYTHONPATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+	/usr/bin/env PYTHONPATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink:/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages" /usr/bin/python2 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/mavlink/message_definitions/v1.0/matrixpilot.xml
 	touch matrixpilot-v2.0-cxx-stamp
 
 matrixpilot.xml-v2.0: CMakeFiles/matrixpilot.xml-v2.0

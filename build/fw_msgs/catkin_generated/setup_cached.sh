@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/build/fw_msgs'
+export PYTHONPATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/.private/fw_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/fw_msgs:$ROS_PACKAGE_PATH"
