@@ -44,7 +44,7 @@ double VF::mod(double x){ // %
 }
 // 绕着 Z 轴旋转 theta_ 角度的旋转矩阵
 void VF::setRotation_Z(double theta_){
-
+    cout <<"绕z轴旋转矩阵，旋转角度为 " << theta_ << endl;
     double theta = mod(theta_);
     double ang[9] = { 
         cos(theta), -sin(theta), 0, 
@@ -57,9 +57,12 @@ void VF::setRotation_Z(double theta_){
             Rotation[i][j] = ang[k++];
         } 
     }
+    printRotation();
 }
+
 // 绕着 Y' 轴旋转 theta_ 角度的旋转矩阵
 void VF::setRotation_Y_(double theta_){
+    cout <<"绕y轴旋转矩阵，旋转角度为 " << theta_ << endl;
 
     double theta = mod(theta_);
     double ang[9] = { 
@@ -73,8 +76,10 @@ void VF::setRotation_Y_(double theta_){
             Rotation[i][j] = ang[k++];
         } 
     }
+    printRotation();
 }
 void VF::printRotation(){
+    std::cout <<"旋转之后的矩阵为: " << endl;
     for(size_t i = 0; i < 3; i++){
         for(size_t j = 0; j < 3; j++){ cout << Rotation[i][j] << "\t\t"; } cout << endl;
     }
@@ -455,29 +460,49 @@ double VF::getPitch(
     
     std::cout << "3D vf 控制核心逻辑执行" << std::endl;
 
+
+    cout << "Start: ";      Start.print_vec();
+    cout << "P: ";          P.print_vec();
+    cout << "End: ";        End.print_vec();
+
     Three_Dimensional_Vector current_waypoint(End);
     Three_Dimensional_Vector previous_waypoint(Start);
     Three_Dimensional_Vector local_position(P);
+    current_waypoint.update(End.getY(), End.getX(), -End.getZ());
+    previous_waypoint.update(Start.getY(), Start.getX(), -Start.getZ());
+    local_position.update(P.getY(), P.getX(), -P.getZ());
+
+    cout << "变量定义之后>>(ENU TO NED): " << endl;
+    cout << "Start: ";      previous_waypoint.print_vec();
+    cout << "P: ";          local_position.print_vec();
+    cout << "End: ";        current_waypoint.print_vec();
+    cout << "S_groundSpeed: " << S_groundSpeed << endl; 
 
     // 1. 角度转换, 变量赋值
     course_alpha = atan2(
         current_waypoint.getY() - previous_waypoint.getY(),
         current_waypoint.getX() - previous_waypoint.getX()
     );
+    cout << "course_alpha: " << course_alpha << endl;
+    setRotation_Z(-1.0f * course_alpha);
+    cout << "printRotation: " << endl; printRotation();
 
-    setRotation_Z(course_alpha);
     Previous_Waypoint_R = Rotation_multiplied_vector(previous_waypoint);
     Current_Waypoint_R  = Rotation_multiplied_vector(current_waypoint);
 
     course_beta = atan2(
         Current_Waypoint_R.getZ() - Previous_Waypoint_R.getZ(),
-        Current_Waypoint_R.getX() - Previous_Waypoint_R.getX()
+        sqrt(
+            pow(Current_Waypoint_R.getX() - Previous_Waypoint_R.getX(), 2) + 
+            pow(Current_Waypoint_R.getY() - Previous_Waypoint_R.getY(), 2)
+        )
     );
     std::cout << "course_beta : " << course_beta << std::endl;
-    Three_Dimensional_Vector error_enu; // enu坐标系下的 当前位置和 previous 航点的矢量误差
-    error_enu = -(local_position - current_waypoint);
 
-    setRotation_Z(course_alpha);
+    Three_Dimensional_Vector error_enu; // enu坐标系下的 当前位置和 previous 航点的矢量误差
+    error_enu = (local_position - previous_waypoint);
+
+    setRotation_Z(-1.0f * course_alpha);
     _error_ = Rotation_multiplied_vector(error_enu);
     setRotation_Y_(course_beta);
     _error_ = Rotation_multiplied_vector(_error_);

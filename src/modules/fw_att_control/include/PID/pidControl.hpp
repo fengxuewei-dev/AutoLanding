@@ -26,6 +26,8 @@
 #define KP_ROLL 	2
 #define KP_PITCH 	4
 
+#define KP_NEW_PITCH 	3.10
+
 
 #ifndef PI
 #define PI 			3.14159265359
@@ -44,6 +46,7 @@ class pidControl{
 		float altitudeError;
 		float yawErrorDegree;
 		float rollErrorDegree;
+		float pitchErrorDegree;				// three vf
 		float throttleErrorDegree;
 
 		float map(float x, float in_min, float in_max, float out_min, float out_max);

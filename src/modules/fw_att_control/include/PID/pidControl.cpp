@@ -9,7 +9,6 @@ float pidControl::map(float x, float in_min, float in_max, float out_min, float 
 void pidControl::cal_Error(){
     altitudeError =  current_localPose.pose.position.z - current_commands.pitch;
     // throttleErrorDegree = current_commands.throttle - current_UAV_state.groundspeed;
-    
      
     rollErrorDegree = ((float)current_UAV_state.heading)  + (current_commands.roll*(180.0/PI)); // error in degrees
 	if(rollErrorDegree > 180)  rollErrorDegree-=360;
@@ -17,7 +16,7 @@ void pidControl::cal_Error(){
 
     yawErrorDegree = ((float)current_UAV_state.heading)  + (current_commands.yaw*(180.0/PI));   // error in degrees
 	if(yawErrorDegree > 180)    yawErrorDegree-=360;
-	if(yawErrorDegree < -180)   yawErrorDegree+=360;
+	if(yawErrorDegree < -180)   yawErrorDegree+=360; 
 }
 // pitch , roll , yaw , throttle
 // att_angle_Euler: roll, pitch, yaw
@@ -30,19 +29,30 @@ void pidControl::Calculate(float *att_sp, float *Euler){
     
     float current_theta = Euler[1];
     
-    double pitchError = current_commands.pitch - current_theta; 
-
-    double pitch_out = pitchError * (180.0 / M_PI)  * KP_PITCH;
-
+    // pitchErrorDegree = (((float)current_theta)  + (current_commands.pitch)) * (180.0 / M_PI); // error in degrees
+	// if(pitchErrorDegree > 180)  pitchErrorDegree-=360;
+	// if(pitchErrorDegree < -180) pitchErrorDegree+=360;
+    // double pitch_out = -pitchErrorDegree * KP_PITCH;
+    double pitchError, pitch_out;
+#ifndef NEW_PITCH_CONTROLLER
+    pitchError = current_commands.pitch - current_theta; 
+    pitch_out = pitchError * (180.0 / M_PI)  * KP_PITCH;
+#else
+    pitchError = current_commands.pitch - current_theta; 
+    pitch_out = pitchError * (180.0 / M_PI)  * KP_NEW_PITCH;
+#endif
     att_sp[THROTTLE_CHANNEL - 1]  = map(
-        current_commands.throttle,  
+        // current_commands.throttle,  
+        24,
         15, 30, RC_MIN,RC_MAX
     );
 
     att_sp[PITCH_CHANNEL - 1] = map(
 
 #ifdef _USE_THREE_DIMENSION_VF_
-        pitch_out,  -60, 60, 1000, 2000);       // 开发板
+        pitch_out,
+        -PI, PI, 1000, 2000);       // 开发板
+        // -60, 60, 1000, 2000);       // 开发板
         // current_commands.pitch, -M_PI / 3, M_PI / 3, 1000, 2000);       // 开发板 针对 就旧版的三维 VF
 #else
         altitude_out, -100, 100, 1000+300, 2000-300);       // 开发板

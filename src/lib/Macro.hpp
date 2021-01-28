@@ -25,7 +25,7 @@
 
 
 // 使用主机三维 vf 的时候，将下面两个宏打开; 使用从及的时候，要将其注释掉;
-// #define NEW_PITCH_CONTROLLER  
+#define NEW_PITCH_CONTROLLER  
 #define _USE_THREE_DIMENSION_VF_
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>> VF Controller switch end <<<<<<<<<<<<<<<<<<<<< */

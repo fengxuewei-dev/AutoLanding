@@ -1,0 +1,29 @@
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/single/PositionControl_VF.hpp:41:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/single/PositionControl_VF.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/single/../positionController_output.hpp:7:37:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define POSITIONCONTROLLER_ERROR(a) \
+                                      
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/../single/PositionControl_VF.hpp:41:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/FixedwingPositionSubAndPub.hpp:30[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/FixedwingPositionSubAndPub.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/../single/../positionController_output.hpp:7:37:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define POSITIONCONTROLLER_ERROR(a) \
+                                      
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/FixedwingPositionSubAndPub.hpp:32:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/FixedwingPositionSubAndPub.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/../positionController_output.hpp:7:37:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define POSITIONCONTROLLER_ERROR(a) \
+                                      
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/../single/PositionControl_VF.hpp:41:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/FixedwingPositionSubAndPub.hpp:30[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/FixedwingPositionControl.hpp:5[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/FixedwingPositionControl.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/../single/../positionController_output.hpp:7:37:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define POSITIONCONTROLLER_ERROR(a) \
+                                      
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/FixedwingPositionSubAndPub.hpp:32:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/FixedwingPositionControl.hpp:5[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/FixedwingPositionControl.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/FixedwingPositionSubAndPub/../positionController_output.hpp:7:37:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define POSITIONCONTROLLER_ERROR(a) \
+                                      

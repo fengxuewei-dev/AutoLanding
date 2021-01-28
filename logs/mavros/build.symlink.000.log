@@ -1,8 +1,0 @@
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/mavros/cmake/mavrosConfig.cmake
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/share/mavros/cmake/mavrosConfig-version.cmake
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/libmavros_plugins.so
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/libmavros.so
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/python2.7/dist-packages/mavros/__init__.py
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/mavros/gcs_bridge
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/mavros/mavros_node
-Symlinking /home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/devel/lib/pkgconfig/mavros.pc

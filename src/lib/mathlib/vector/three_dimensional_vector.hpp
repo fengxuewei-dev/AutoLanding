@@ -15,9 +15,14 @@ private:
     double z;
 public:
     Three_Dimensional_Vector(double _x = 0, double _y = 0, double _z = 0) : x(_x), y(_y), z(_z) {}
-    Three_Dimensional_Vector(const Three_Dimensional_Vector& source){
-        x = source.x;
-        y = source.y;
+    // Three_Dimensional_Vector(const Three_Dimensional_Vector& source){ // CHANGE ENU TO NED
+    //     x = source.y;       // source.x E; source.y N; source U
+    //     y = source.x;       // xyz: X N; Y E; Z D
+    //     z = -source.z;
+    // }
+     Three_Dimensional_Vector(const Three_Dimensional_Vector& source){ // CHANGE ENU TO NED
+        x = source.x;       // source.x E; source.y N; source U
+        y = source.y;       // xyz: X N; Y E; Z D
         z = source.z;
     }
     ~Three_Dimensional_Vector(){}

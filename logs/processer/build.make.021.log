@@ -1,0 +1,13 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 22%] Built target processer
+[ 22%] Built target std_msgs_generate_messages_nodejs
+[ 22%] Built target _processer_generate_messages_check_deps_uavflag
+[ 22%] Built target std_msgs_generate_messages_lisp
+[ 22%] Built target std_msgs_generate_messages_eus
+[ 22%] Built target std_msgs_generate_messages_py
+[ 33%] Built target processer_generate_messages_cpp
+[ 44%] Built target processer_generate_messages_nodejs
+[ 55%] Built target processer_generate_messages_lisp
+[ 77%] Built target processer_generate_messages_py
+[100%] Built target processer_generate_messages_eus
+[100%] Built target processer_generate_messages

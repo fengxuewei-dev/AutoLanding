@@ -1,0 +1,5 @@
+In file included from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/single/PositionControl_VF.hpp:41:0[m[K,
+                 from [01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/single/PositionControl_VF.cpp:1[m[K:
+[01m[K/home/fengxuewei/GitHub/uav_project_1/AutoLanding/AutoLanding/src/modules/fw_pos_control/include/single/../positionController_output.hpp:7:37:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+ #define POSITIONCONTROLLER_ERROR(a) \
+                                      
